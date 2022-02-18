@@ -18,3 +18,11 @@ The portfolio should include the following pages:
 
 This portfolio was built using the following technologies:
 - React
+
+## Creation Process
+Steps to help!
+- Figure out a layout. Do this first to give yourself an idea of what you want to achieve
+- Create your react app!
+- Write down all the information you want to convey
+- Create the components that will make up your website
+- Utilize react router to create multiple pages for your website
