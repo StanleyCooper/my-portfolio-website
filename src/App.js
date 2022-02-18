@@ -1,12 +1,14 @@
+import React from 'react';
 import './App.css';
-import Home from "./pages/home";
-import Projects from "./pages/projects";
-import Resume from "./pages/resume";
-import Contact from "./pages/contact"; 
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <Home />
+    <div>
+      <Navbar />
+      <Home />
+    </div>
   );
 }
 
