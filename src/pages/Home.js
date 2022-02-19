@@ -19,7 +19,9 @@ export default function Home() {
         <div className='bg-red-600'>
             <div>
                 <h1>Skills</h1>
-                <Skills />
+                <div>
+                    <Skills />
+                </div>
             </div>
         </div>
         <div>

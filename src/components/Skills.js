@@ -1,13 +1,15 @@
 import React from "react";
-import { hero } from "../data/data";
+import { skills } from "./../data/data";
 
 function Skills() {
-    const skills = hero.skills;
     const skillList = skills.map((skill) =>
-        <li>{skill}</li>
+        <div>
+            <li>{skill.image}</li>
+            <li>{skill.name}</li>
+        </div>
     );
     return (
-        <ul>{skillList}</ul>
+        <ul className="flex flex-row justify-evenly">{skillList}</ul>
     );
 }
 
