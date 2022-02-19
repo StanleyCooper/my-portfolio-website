@@ -8,10 +8,10 @@ export default function ProjectList() {
 
     const projectList = projects.map((project) =>
     <div className='project-card'>
-        <Card sx={{ maxWidth: 300, maxHeight: 300 }}> 
+        <Card sx={{ maxWidth: 300, height: 250 }}> 
                 <CardMedia
                     component="img"
-                    height="150"
+                    height="100"
                     image={project.image}
                     alt={project.name}
                 />

@@ -25,12 +25,8 @@
 }
 
 /* project card classes */
-.project-list {
-  flex-direction: row;
-}
-
 .project-card {
-  flex-direction: row;
+  display: inline-block;
   padding: 10px 10px;
 }
 
