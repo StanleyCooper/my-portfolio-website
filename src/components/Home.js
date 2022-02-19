@@ -3,6 +3,7 @@ import { hero } from '../data/data'
 import { useHistory } from 'react-router-dom'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import EmailIcon from '@mui/icons-material/Email';
 
 export default function Home() {
 
@@ -21,11 +22,9 @@ export default function Home() {
         <h2>{hero.title}</h2>
       </div>
       <div className="contact-buttons">
-        <button className='btn' onClick={() => clickHandler()}>
-            Click me!
-        </button>
-        <a className='link'><GitHubIcon fontSize="large" /></a>
+        <a className='link' href='https://github.com/StanleyCooper'><GitHubIcon fontSize="large" /></a>
         <a className='link'><LinkedInIcon fontSize="large"/></a>
+        <a className='link'><EmailIcon fontSize="large"/></a>
       </div>
     </div>
   )
