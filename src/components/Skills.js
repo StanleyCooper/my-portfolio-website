@@ -9,8 +9,7 @@ function Skills() {
         </div>
     );
     return (
-        <ul className="flex flex-row justify-evenly">{skillList}</ul>
-    );
-}
+        <ul>{skillList}</ul>
+    );}
 
 export default Skills;

@@ -1,6 +1,6 @@
 export const hero = {
     name: "S. Lucas Cooper",
-    title: "Software Engineer",
+    title: "Full Stack Developer",
     mission: "Creating responsive, user friendly websites",
 }
 
