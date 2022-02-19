@@ -4,29 +4,27 @@ export const hero = {
     mission: "Creating responsive, user friendly websites",
 }
 
-export const skills = [
+export const projects = [
     {
-        name: "HTML",
-        image: <img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/>,
+        name: "Estimation Helper",
+        description: "Takes in lists of materials, fixtures, and equipment to help speed up take-offs and provide estimate prices for plumbing and HVAC",
+        image: "https://training.npr.org/wp-content/uploads/2016/06/dreamstime_l_260891731.jpg",
+        technology: "React.js | Node.js | Material UI | Express.js | PostgresSQL",
+        github: "Does not exist"
     },
     {
-        name: "CSS",
-        image: <img src="https://img.icons8.com/color/48/000000/css3.png"/>,
+        name: "Underworld",
+        description: "React-based text adventure",
+        image: "https://www.perkinselearning.org/sites/elearning.perkinsdev1.org/files/styles/interior_page_image__519x374_/public/text%20adventure.jpg?itok=nLOVjxK_",
+        technology: "React.js",
+        github: "Does not exist",
     },
     {
-        name: "Javascript",
-        image: <img src="https://img.icons8.com/color/48/000000/javascript--v1.png"/>,
+        name: "DevJourney",
+        description: "Full stack personal blog",
+        image: "https://bookstr.com/wp-content/uploads/2020/10/coffee-and-books-featured.png",
+        technology: "React.js | Node.js | Material UI | Express.js | PostgresSQL",
+        github: "Does not exist"
     },
-    {
-        name: "React.js",
-        image: <img src="https://img.icons8.com/ios-glyphs/60/000000/react.png"/>,
-    },
-    {
-        name: "Node.js",
-        image: <img src="https://img.icons8.com/color/48/000000/nodejs.png"/>,
-    },
-    {
-        name: "PostgresSQL",
-        image: <img src="https://img.icons8.com/ios/50/000000/postgreesql.png"/>,
-    }
+
 ]

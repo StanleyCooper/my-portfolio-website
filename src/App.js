@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import NotFound from './components/NotFound';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Switch>
         <Route exact path = "/">
           <Home />
+          <Projects />
         </Route>
         <Route>
           <NotFound />
