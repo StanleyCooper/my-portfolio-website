@@ -13,18 +13,46 @@ export const projects = [
         github: "Does not exist"
     },
     {
-        name: "Underworld",
+        name: "React Text Adventure",
         description: "React-based text adventure",
         image: "https://www.perkinselearning.org/sites/elearning.perkinsdev1.org/files/styles/interior_page_image__519x374_/public/text%20adventure.jpg?itok=nLOVjxK_",
         technology: "React.js",
         github: "Does not exist",
     },
     {
-        name: "DevJourney",
+        name: "Personal Blog",
         description: "Full stack personal blog",
         image: "https://bookstr.com/wp-content/uploads/2020/10/coffee-and-books-featured.png",
         technology: "React.js | Node.js | Material UI | Express.js | PostgresSQL",
         github: "Does not exist"
     },
 
+]
+
+export const blogPosts = [
+    {
+        name: "A Blog Post #1",
+        description: "A cool blogpost about cool stuff!",
+        url: "lol",
+    },
+    {
+        name: "A Blog Post #2",
+        description: "A cool blogpost about cool stuff!",
+        url: "lol",
+    },
+    {
+        name: "A Blog Post #3",
+        description: "A cool blogpost about cool stuff!",
+        url: "lol",
+    },
+    {
+        name: "A Blog Post #4",
+        description: "A cool blogpost about cool stuff!",
+        url: "lol",
+    },
+    {
+        name: "A Blog Post #5",
+        description: "A cool blogpost about cool stuff!",
+        url: "lol",
+    }
 ]

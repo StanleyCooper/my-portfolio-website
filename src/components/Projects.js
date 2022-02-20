@@ -5,7 +5,7 @@ import '../App.css';
 export default function Projects() {
   return (
     <div>
-        <div className='project-container'>
+        <div className='container'>
         <h2 className="highlight">Projects</h2>
           <ProjectList />
         </div>

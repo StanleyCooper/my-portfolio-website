@@ -6,7 +6,7 @@ import EmailIcon from '@mui/icons-material/Email';
 
 export default function Home() {
   return (
-    <div className='container'>
+    <div className='header-container'>
       <div className='title'>
         <h1>Hello, I'm <span className='highlight'>{hero.name}</span></h1>
       </div>

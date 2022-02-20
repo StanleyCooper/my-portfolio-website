@@ -5,6 +5,8 @@ import Navbar from './components/Navbar';
 import Home from './components/Home';
 import NotFound from './components/NotFound';
 import Projects from './components/Projects';
+import Blogs from './components/Blogs';
+import ContactMe from './components/ContactMe';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Route exact path = "/">
           <Home />
           <Projects />
+          <Blogs />
+          <ContactMe />
         </Route>
         <Route>
           <NotFound />

@@ -1,5 +1,5 @@
-import React from 'react'
-import { projects } from '../data/data'
+import React from 'react';
+import { projects } from '../data/data';
 import '../App.css';
 
 export default function ProjectList() {
@@ -7,9 +7,9 @@ export default function ProjectList() {
     const projectList = projects.map((project) =>
         <li className='card'>
             <img src={project.image} alt={project.name}/>
-            <h2>{project.name}</h2>
-            <p>{project.description}</p>
-            <h4>{project.technology}</h4>
+            <div className='card-content'>
+                <h2>{project.name}</h2>
+            </div>
         </li>
     );
 

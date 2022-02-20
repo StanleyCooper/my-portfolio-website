@@ -2,10 +2,7 @@
   padding: 0;
   margin: 2px 1px;
   border: 0;
-  outline: 0;
   background-color: #fcfcfc;
-  box-shadow: none;
-  box-sizing: border-box;
 }
 
 html {
@@ -55,22 +52,8 @@ img {
 	height: auto;
 }
 
-@media (min-width: 900px) {
+@media screen and (min-width: 600px) {
   body {
-    margin: 0 10%;
-  }
-  
-  h1 {
-    font-size: 2.6rem;
-  }
-}
-
-@media (min-width: 1300px) {
-  body {
-    margin: 0 20%;
-  }
-  
-  h1 {
-    font-size: 2.6rem;
+    margin: 0 15%;
   }
 }
