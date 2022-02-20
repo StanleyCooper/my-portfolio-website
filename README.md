@@ -13,9 +13,9 @@ I learned a lot through making this site, and I plan to continually update it as
 At the moment, this site is **not** deployed. 
 
 To see a function build, fork and clone this repository into a new folder and run:
-`npm install`
+```npm install```
 once finished installing, run:
-`npm start`
+```npm start```
 
 ## Technologies Used
 
