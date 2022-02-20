@@ -6,11 +6,11 @@ export default function BlogList() {
         <li className='blog-post'>
             <div className='blog-title'>
                 <a href={post.url}>
-                    <h4>{post.name}</h4>
+                    <h6>{post.name}</h6>
                 </a>
             </div>
             <div className='blog-description'>
-                <h5>{post.description}</h5>
+                <p>-{post.description}</p>
             </div>
         </li>    
     );

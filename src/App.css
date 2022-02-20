@@ -6,10 +6,39 @@
   background-color: #fcfcfc;
 }
 
+.centered {
+  text-align: center;
+}
+
 /* Text classes */
 .highlight {
   color: #2978b5;
+  position: relative;
 }
+
+.highlight-animated {
+  display: inline-block;
+  color:#555;
+}
+
+.highlight-animated:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.highlight-animated:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 
 /* Flexbox classes */
 .header-container {

@@ -13,11 +13,6 @@ export default function Home() {
       <div>
         <h2>{hero.title}</h2>
       </div>
-      <div className="contact-buttons">
-        <a className='link' href='https://github.com/StanleyCooper'><GitHubIcon fontSize="large" /></a>
-        <a className='link'><LinkedInIcon fontSize="large"/></a>
-        <a className='link'><EmailIcon fontSize="large"/></a>
-      </div>
     </div>
   )
 }
