@@ -1,12 +1,13 @@
 import React from 'react'
 import ProjectList from './ProjectList'
+import '../App.css';
 
 export default function Projects() {
   return (
-    <div className='container'>
+    <div>
+        <div className='project-container'>
         <h2 className="highlight">Projects</h2>
-        <div className="project-list">
-            <ProjectList />
+          <ProjectList />
         </div>
     </div>
   )

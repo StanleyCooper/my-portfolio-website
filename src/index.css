@@ -48,11 +48,11 @@ button {
   cursor: pointer;
 }
 
-Link
-Link:visited,
-Link:hover,
-Link:active  {
-  color: black;
+img {
+	display: block;
+	border: 0;
+	width: 100%;
+	height: auto;
 }
 
 @media (min-width: 900px) {
