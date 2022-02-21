@@ -26,6 +26,13 @@ export const projects = [
         technology: "React.js | Node.js | Material UI | Express.js | PostgresSQL",
         github: "Does not exist"
     },
+    {
+        name: "Expense Tracker",
+        description: "",
+        image: "https://post.healthline.com/wp-content/uploads/2021/06/lizard-iguana-1200x628-facebook.jpg",
+        technology: "None of your business",
+        github: "lol",
+    }
 
 ]
 
@@ -47,6 +54,71 @@ export const blogPosts = [
     },
     {
         name: "A Blog Post #4",
+        description: "A cool blogpost about cool stuff!",
+        url: "lol",
+    },
+    {
+        name: "A Blog Post #5",
+        description: "A cool blogpost about cool stuff!",
+        url: "lol",
+    },
+    {
+        name: "A Blog Post #5",
+        description: "A cool blogpost about cool stuff!",
+        url: "lol",
+    },
+    {
+        name: "A Blog Post #5",
+        description: "A cool blogpost about cool stuff!",
+        url: "lol",
+    },
+    {
+        name: "A Blog Post #5",
+        description: "A cool blogpost about cool stuff!",
+        url: "lol",
+    },
+    {
+        name: "A Blog Post #5",
+        description: "A cool blogpost about cool stuff!",
+        url: "lol",
+    },
+    {
+        name: "A Blog Post #5",
+        description: "A cool blogpost about cool stuff!",
+        url: "lol",
+    },
+    {
+        name: "A Blog Post #5",
+        description: "A cool blogpost about cool stuff!",
+        url: "lol",
+    },
+    {
+        name: "A Blog Post #5",
+        description: "A cool blogpost about cool stuff!",
+        url: "lol",
+    },
+    {
+        name: "A Blog Post #5",
+        description: "A cool blogpost about cool stuff!",
+        url: "lol",
+    },
+    {
+        name: "A Blog Post #5",
+        description: "A cool blogpost about cool stuff!",
+        url: "lol",
+    },
+    {
+        name: "A Blog Post #5",
+        description: "A cool blogpost about cool stuff!",
+        url: "lol",
+    },
+    {
+        name: "A Blog Post #5",
+        description: "A cool blogpost about cool stuff!",
+        url: "lol",
+    },
+    {
+        name: "A Blog Post #5",
         description: "A cool blogpost about cool stuff!",
         url: "lol",
     },

@@ -1,8 +1,5 @@
 import React from 'react'
 import { hero } from '../data/data'
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import EmailIcon from '@mui/icons-material/Email';
 
 export default function Home() {
   return (
