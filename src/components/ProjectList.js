@@ -5,10 +5,10 @@ import '../App.css';
 export default function ProjectList() {
 
     const projectList = projects.map((project) =>
-        <a href="http://localhost:3000/projects" className='card'>
+        <a href="https://github.com/StanleyCooper/estimating-app" className='card'>
             <li>
-                <img src={project.image} alt={project.name}/>
                 <div className='card-content'>
+                    <img src={project.image}/>
                     <h2>{project.name}</h2>
                 </div>
             </li>
